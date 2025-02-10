@@ -45,7 +45,7 @@ You can configure the agent's name, model, and prompts in their profile like `an
 | Andy-3.5-mini | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-mini.Q8_0.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/Mini) |
 | Andy-3.5-small | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-small.Q8_0.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/small) |
 | Andy-3.5-reasoning-preview | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-reasoning-preview.Q4_K_M` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/reasoning) |
-| Andy-3.5-small-reasoning-preview | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-small-reasoning-preview.Q8_0.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/small-reasoning) |
+| Andy-3.5-reasoning-small | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-reasoning-small.Q8_0.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/small-reasoning) |
 | Andy-3.5-teensy | `F16, Q2_K` | `Andy-3.5-teensy.F16.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/teensy) |
 
 If you use Ollama, you need to specify what Andy-3.5 model you will be using, by default, the model you pull will be Andy-3.5.q4_k_m.gguf:
