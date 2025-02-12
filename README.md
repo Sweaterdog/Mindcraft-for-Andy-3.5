@@ -2,7 +2,7 @@
 
 Crafting minds for Minecraft with LLMs and Mineflayer!
 
-## This is a repo with a deprecated version of Mindcraft, specifically to allow Andy-3.5 to play safely, and with certain stability.
+## This is a repo with a deprecated version of Mindcraft, specifically to allow Andy-3.5 / Andy-3.6 to play safely, and with certain stability.
 
 [Discord Support](https://discord.gg/mp73p35dzC) | [Andy-3.5 Support (developers only)](https://ptb.discord.com/channels/1303399789995626667/1307448366833340508)
 
@@ -41,6 +41,7 @@ You can configure the agent's name, model, and prompts in their profile like `an
 
 | Name | Quantization | Full model name with example quantization | Huggingface Link |
 |------|------|------|------|
+| Andy-3.6 *(suggested)* | `F16, Q8_0, Q5_K_M,Q4_K_M, Q2_K` | `Andy-3.6.Q5_K_M` | [Model](https://huggingface.co/Sweaterdog/Andy-3.6/tree/main) |
 | Andy-3.5 | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5.Q4_K_M` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main) |
 | Andy-3.5-mini | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-mini.Q8_0.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/Mini) |
 | Andy-3.5-small | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-small.Q8_0.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/small) |
@@ -52,7 +53,7 @@ If you use Ollama, you need to specify what Andy-3.5 model you will be using, by
 `ollama pull llama3 && ollama pull nomic-embed-text`
 > NOTE
 > I recommend using Huggingface over Ollama, as I am able to provide more models on Huggingface, and you are allowed to fully customize Andy-3.5
-> If you want an easy install, or want the stock model, you can still go to [huggingface](https://huggingface.co/Sweaterdog/Andy-3.5) and find an installation and setup guide for Andy-3.5
+> If you want an easy install, or want the stock model, you can still go to [huggingface for Andy-3.5](https://huggingface.co/Sweaterdog/Andy-3.5) or [huggingface for Andy-3.6](https://huggingface.co/Sweaterdog/Andy-3.6/tree/main) and find an installation and setup guide for Andy-3.5 / Andy-3.6
 
 ## Online Servers
 To connect to online servers your bot will need an official Microsoft/Minecraft account. You can use your own personal one, but will need another account if you want to connect too and play with it. To connect, change these lines in `settings.js`:
@@ -123,7 +124,7 @@ If the embedding field is not specified, then it will use the default embedding 
 Thus, all the below specifications are equivalent to the above example:
 
 ```json
-"model": "sweaterdog/Andy-3.5-reasoning"
+"model": "sweaterdog/Andy-3.6:q4_k_m"
 ```
 ```json
 "model": {
@@ -150,5 +151,5 @@ Some of the node modules that we depend on have bugs in them. To add a patch, ch
 }
 ```
 ```
-Edited by Sweaterdog to allow an easy guide for Andy-3.5 models in Mindcraft
+Edited by Sweaterdog to allow an easy guide for Andy models in Mindcraft
 ```
