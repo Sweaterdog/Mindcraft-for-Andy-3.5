@@ -65,7 +65,7 @@ export class Local {
 
         if (finalRes == null) {
             console.warn("Could not get a valid <think> block or normal response after max attempts.");
-            finalRes = 'I thought to hard, sorry, try again.';
+            finalRes = 'I thought too hard, sorry, try again.';
         }
         return finalRes;
     }
