@@ -41,7 +41,7 @@ You can configure the agent's name, model, and prompts in their profile like `an
 
 | Name | Quantization | Full model name with example quantization | Huggingface Link |
 |------|------|------|------|
-| Andy-3.6 *(suggested)* | `F16, Q8_0, Q5_K_M,Q4_K_M, Q2_K` | `Andy-3.6.Q5_K_M` | [Model](https://huggingface.co/Sweaterdog/Andy-3.6/tree/main) |
+| Andy-3.6 *(suggested)* | `F16, Q8_0, Q5_K_M, Q4_K_M, Q2_K` | `Andy-3.6.Q5_K_M` | [Model](https://huggingface.co/Sweaterdog/Andy-3.6/tree/main) |
 | Andy-3.5 | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5.Q4_K_M` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main) |
 | Andy-3.5-mini | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-mini.Q8_0.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/Mini) |
 | Andy-3.5-small | `F16, Q8_0, Q4_K_M, Q2_K` | `Andy-3.5-small.Q8_0.gguf` | [Model](https://huggingface.co/Sweaterdog/Andy-3.5/tree/main/small) |
