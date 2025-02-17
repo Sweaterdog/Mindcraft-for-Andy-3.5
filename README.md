@@ -52,7 +52,7 @@ You can configure the agent's name, model, and prompts in their profile like `an
 If you use Ollama, you need to specify what Andy-3.5 model you will be using, by default, the model you pull will be Andy-3.5.q4_k_m.gguf:
 `ollama pull llama3 && ollama pull nomic-embed-text`
 > NOTE
-> I recommend using Huggingface over Ollama, as I am able to provide more models on Huggingface, and you are allowed to fully customize Andy-3.5
+> I recommend using Huggingface over Ollama when downloading models, as I am able to provide more models on Huggingface, and you are allowed to fully customize Andy-3.5 on Huggingface
 > If you want an easy install, or want the stock model, you can still go to [huggingface for Andy-3.5](https://huggingface.co/Sweaterdog/Andy-3.5) or [huggingface for Andy-3.6](https://huggingface.co/Sweaterdog/Andy-3.6/tree/main) and find an installation and setup guide for Andy-3.5 / Andy-3.6
 
 ## Online Servers
