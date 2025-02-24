@@ -52,6 +52,8 @@ export class Prompter {
                 chat.api = 'openai';
             else if (chat.model.includes('claude'))
                 chat.api = 'anthropic';
+            else if (chat.model.includes('andy'))
+                chat.api = 'ollama'; // Check for ollama before glhf.chat
             else if (chat.model.includes('huggingface/'))
                 chat.api = "huggingface";
             else if (chat.model.includes('hf:'))
