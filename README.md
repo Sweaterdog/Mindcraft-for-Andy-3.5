@@ -121,20 +121,22 @@ The model parameter accepts either a string or object. If a string, it should sp
 
 If the embedding field is not specified, then it will use the default embedding method for the chat model's api. The embedding parameter can also be a string or object. If a string, it should specify the embedding api and the default model and url will be used. If a valid embedding is not specified and cannot be assumed, then word overlap will be used to retrieve examples instead.
 
-Thus, all the below specifications are equivalent to the above example:
+Thus, all the below specifications are equivalent *(Besides the model)* to the above example:
 
 ```json
 "model": "sweaterdog/Andy-3.6:q4_k_m"
 ```
 ```json
 "model": {
-  "api": "openai"
+  "api": "ollama"
 }
 ```
 ```json
-"model": "gpt-3.5-turbo",
-"embedding": "openai"
+"model": "hf.co/sweaterdog/Andy-3.5:Q4_K_M",
+"embedding": "ollama"
 ```
+
+If you put the API as "ollama", the default model will be used, which is `hf.co/sweaterdog/Andy-3.6:Q5_K_M`
 
 ## Patches
 
