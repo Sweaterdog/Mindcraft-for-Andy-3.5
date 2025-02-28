@@ -140,6 +140,8 @@ export class Agent {
             }
         }
 
+        this.respondFunc = respondFunc
+        
         this.bot.on('whisper', respondFunc);
         if (settings.profiles.length === 1)
             this.bot.on('chat', respondFunc);
