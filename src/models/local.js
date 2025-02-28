@@ -13,14 +13,14 @@ export class Local {
      */
     async sendRequest(turns, systemMessage) {
         // Choose the model name or default to 'llama3'
-        const model = this.model_name || 'llama3';
+        const model = this.model_name || 'hf.co/Sweaterdog/Andy-3.6:Q5_K_M';
 
         // Format messages and inject the system message at the front
         let messages = strictFormat(turns);
         messages.unshift({ role: 'system', content: systemMessage });
         console.log('Messages:', messages);
 
-        // We'll do up to 5 attempts for Andy-3.6 and other reasoning models if the <think> tags are mismatched
+        // We'll do up to 5 attempts for the Andy-3.5 suite of reasoning models (Including Andy-3.6) if the <think> tags are mismatched
         const maxAttempts = 5;
         let attempt = 0;
         let finalRes = null;
