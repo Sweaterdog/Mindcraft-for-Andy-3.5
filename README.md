@@ -2,7 +2,7 @@
 
 Crafting minds for Minecraft with LLMs and Mineflayer!
 
-## This is a repo with a deprecated version of Mindcraft, specifically to allow Andy-3.5 / Andy-3.6 to play safely, and with certain stability.
+## This is a repo with a deprecated version of Mindcraft, specifically to allow Andy-3.5 / Andy-3.6 to play safely, and with certain stability. DO NOT USE FOR ANDY-4 MODELS
 
 [Discord Support](https://discord.gg/mp73p35dzC) | [Andy-3.5 Support (developers only)](https://ptb.discord.com/channels/1303399789995626667/1307448366833340508)
 
